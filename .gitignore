@@ -59,3 +59,18 @@ typings/
 
 # next.js build output
 .next
+
+# Microsoft Visual
+.vs/
+.vscode/
+*.code-workspace
+jsconfig.json
+
+# Application files & directory
+_bak/
+config/
+data/*.db3
+data/*.db3-shm
+data/*.db3-wal
+dist/
+package-lock.json
