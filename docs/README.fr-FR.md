@@ -15,16 +15,12 @@ Méthode pour résoudre un chemin de fichier absolu. Il sera résolu par défaut
 
 Méthode pour créer un fichier et son chemin complet s'il n'existe pas.
 
----
+### [FsUtils.directory.ensureExistence(_dir [, root]_)](directory/ensureExistence.md)
 
->### FsUtils.directory.ensureExistence(dir, root)
+Méthode pour s'assurer de l'existence d'un répertoire et le créer, ainsi que tous les répertoires nécessaires sur le chemin.
 
-Method to ensure directory existence and create it and all directories needed on the path.
+### FsUtils.directory.walkSync(_dir [, filters, flatten, filelist]_)(directory/walkSync.md)
 
----
-
->### FsUtils.directory.walkSync(dir, filters, flatten, filelist = [])
-
-Method to walk through a directory to search for files on it.
+Méthode permettant de parcourir un répertoire pour y rechercher des fichiers.
 
 ---

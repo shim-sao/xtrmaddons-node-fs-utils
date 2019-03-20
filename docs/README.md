@@ -14,15 +14,11 @@ Method to solve an absolute file path. It will be solved by default with process
 
 Method to create file and its full path if not exists.
 
----
-
->### FsUtils.directory.ensureExistence(dir, root)
+### [FsUtils.directory.ensureExistence(_dir [, root]_)](directory/ensureExistence.md)
 
 Method to ensure directory existence and create it and all directories needed on the path.
 
----
-
->### FsUtils.directory.walkSync(dir, filters, flatten, filelist = [])
+### FsUtils.directory.walkSync(_dir [, filters, flatten, filelist]_)(directory/walkSync.md)
 
 Method to walk through a directory to search for files on it.
 
