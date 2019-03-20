@@ -41,12 +41,11 @@ exports = module.exports = function(relPath, filename, node_env, ext) {
 	}
 
 	// Create absolute path.
-	let absPath = "";
-	if (filename) {
-		absPath = path.join(process.cwd(), relPath, filename);
-	} else {
-		absPath = path.join(process.cwd(), relPath);
-	}
+	let absPath = relPath;
+	if (filename)
+		absPath = path.join(relPath, filename);
+	if (!path.isAbsolute(absPath))
+		absPath = path.join(process.cwd(), absPath);
 
 	// Return resolved path.
 	return absPath;
