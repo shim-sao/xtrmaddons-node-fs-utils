@@ -1,4 +1,4 @@
-# XtrmAddons Node Fs Utils [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](README.fr-Fr.md)
+# XtrmAddons Node Fs Utils [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](README.fr-FR.md)
 
 This directory is intended to compile in a class of utilities a series of functions to perform actions on the directories and the files they contain.
 

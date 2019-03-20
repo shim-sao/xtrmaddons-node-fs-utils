@@ -1,4 +1,4 @@
-# XtrmAddons Node Fs Utils API [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](README.fr-Fr.md)
+# XtrmAddons Node Fs Utils API [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](README.fr-FR.md)
 
 ## FsUtils
 
