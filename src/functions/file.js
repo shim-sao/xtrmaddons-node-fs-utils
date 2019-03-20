@@ -11,7 +11,7 @@ exports = module.exports = {
    * Method to create file and its full path if not exists.
    * 
    * @param {string}   filename   The full path name of the file.
-   * @param {string}   content    The full path name of the file.
+   * @param {string}   content    The content of the file.
    * @param {function} callback   A callback to execute after file creation.
    * 
    * @returns void

@@ -6,13 +6,14 @@
 const FsUtils = require("xtrmaddons-node-fs-utils");
 ```
 
-### [FsUtils.resolve(_relPath [, filename, node_env, ext]_)](resolve.md)
+### [FsUtils.resolve(_relPath [, filename, node_env, ext]_)](resolve.fr-FR.md)
 
-Method to solve an absolute file path. It will be solved by default with process.cwd()
+Méthode pour résoudre un chemin de fichier absolu. Il sera résolu par défaut avec process.cwd()
 
-### [FsUtils.file.create(_filename [, content, callback]_)](file/create.md)
 
-Method to create file and its full path if not exists.
+### [FsUtils.file.create(_filename [, content, callback]_)](file/create.fr-FR.md)
+
+Méthode pour créer un fichier et son chemin complet s'il n'existe pas.
 
 ---
 
