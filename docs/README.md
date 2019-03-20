@@ -18,7 +18,7 @@ Method to create file and its full path if not exists.
 
 Method to ensure directory existence and create it and all directories needed on the path.
 
-### FsUtils.directory.walkSync(_dir [, filters, flatten, filelist]_)(directory/walkSync.md)
+### [FsUtils.directory.walkSync(_dir [, filters, flatten, filelist]_)](directory/walkSync.md)
 
 Method to walk through a directory to search for files on it.
 
