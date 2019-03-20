@@ -1,4 +1,4 @@
-# FsUtils.resolve(_relPath [, filename, node_env, ext]_)
+# FsUtils.resolve(_relPath [, filename, node_env, ext]_) [![en-GB](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/united-kingdom-flag-icon-16.png)](resolve.md)
 
 Méthode pour résoudre un chemin de fichier absolu. Il sera résolu par défaut avec process.cwd()
 

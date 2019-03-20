@@ -1,4 +1,4 @@
-# XtrmAddons Node Fs Utils API
+# XtrmAddons Node Fs Utils API [![en-GB](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/united-kingdom-flag-icon-16.png)](README.md)
 
 ## FsUtils
 

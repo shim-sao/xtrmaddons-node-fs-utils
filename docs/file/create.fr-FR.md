@@ -1,4 +1,4 @@
-# FsUtils.file.create(_filename [, content, callback]_)
+# FsUtils.file.create(_filename [, content, callback]_) [![en-GB](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/united-kingdom-flag-icon-16.png)](create.md)
 
 Méthode pour créer un fichier et son chemin complet s'il n'existe pas.
 
