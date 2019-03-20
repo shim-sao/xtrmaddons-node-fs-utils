@@ -31,6 +31,6 @@ Commande pour réaliser les tests unitaires avec Mocha :
 npm run test
 ```
 
-## [API Documentation](docs/README.md)
+## [API Documentation](docs/README.fr-FR.md)
 
 Documentation des fonctions contenues dans l'API.
