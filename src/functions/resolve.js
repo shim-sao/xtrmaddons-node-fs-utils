@@ -16,7 +16,7 @@ const path = require("path");
  * 
  * @returns {string} The absolute path to file or directory.
  */
-exports = module.exports = function(relPath, filename, node_env, ext) {
+exports = module.exports = function(relPath, filename = "", node_env = "", ext = "") {
 	if (!relPath || (typeof relPath !== "string" && typeof relPath !== "number")) {
 		throw new TypeError("Parameter 'relPath' is empty or not valid.");
 	}
