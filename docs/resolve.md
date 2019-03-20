@@ -1,4 +1,4 @@
-# FsUtils.resolve(_relPath [, filename, node_env, ext]_) [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](resolve.fr-Fr.md)
+# FsUtils.resolve(_relPath [, filename, node_env, ext]_) [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](resolve.fr-FR.md)
 
 Method to solve an absolute file path. It will be solved by default with process.cwd()
 
