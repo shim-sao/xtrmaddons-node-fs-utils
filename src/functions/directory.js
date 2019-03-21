@@ -18,7 +18,7 @@ exports = module.exports = {
    */
   ensureExistence: function(dir, root = "") {
     // Check if dir if valid.
-		if (!dir || (typeof dir !== "string" ||  typeof dir !== "number")) {
+		if (!dir || (typeof dir !== "string" &&  typeof dir !== "number")) {
 			throw new TypeError("Parameter 'dir' is empty or not valid.");
     }
 
@@ -59,7 +59,7 @@ exports = module.exports = {
    */
   walkSync: function(dir, filters = [], flatten = false, filelist = []) {
     // Check if dir if valid.
-		if (!dir || (typeof dir !== "string" ||  typeof dir !== "number")) {
+		if (!dir || (typeof dir !== "string" &&  typeof dir !== "number")) {
 			throw new TypeError("Parameter 'dir' is empty or not valid.");
     }
     
