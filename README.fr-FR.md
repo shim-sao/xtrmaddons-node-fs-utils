@@ -1,6 +1,6 @@
 # XtrmAddons Node Fs Utils [![en-GB](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/united-kingdom-flag-icon-16.png)](README.md)
 
-Ce répertoire est destiné à compiler dans une class d'utilitaires une série de fonctions pour effectuer des actions sure les répertoires et les fchiers qu'ils contiennent.
+Ce répertoire est destiné à compiler dans une class d'utilitaires une série de fonctions pour effectuer des actions sur les répertoires et les fichiers qu'ils contiennent.
 
 ## Install
 
