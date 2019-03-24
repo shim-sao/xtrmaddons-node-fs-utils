@@ -1,4 +1,4 @@
-# XtrmAddons Node Fs Utils [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](README.fr-FR.md)
+# XtrmAddons Node Fs Utils [![fr-FR](https://github.com/shim-sao/assets/blob/master/images/france-flag-icon-16.png)](README.fr-FR.md)
 
 This directory is intended to compile in a class of utilities a series of functions to perform actions on the directories and the files they contain.
 
@@ -23,6 +23,22 @@ After adding this dependency in the list of dependencies, execute the following 
 npm run install
 ```
 
+---
+
+## [API Documentation](docs/README.md)
+
+Documentation of the functions contain in the API.
+
+---
+
+## Build
+
+Command to perform Babel compilation for distribution :
+
+```batch
+npm run build
+```
+
 ## Tests Mocha
 
 Command to perform unit tests with Mocha :
@@ -31,6 +47,10 @@ Command to perform unit tests with Mocha :
 npm run test
 ```
 
-## [API Documentation](docs/README.md)
+## Eslint fix
 
-Documentation of the functions contain in the API.
+Command to perform fix with Eslint :
+
+```batch
+npm run eslint
+```
