@@ -7,7 +7,7 @@ require("module-alias/register");
 const assert = require("assert");
 
 // Import internal modules.
-const FsUtils = require("@src");
+const FsUtils = require("@dist");
 
 /* Test */
 const myPath = process.cwd();
