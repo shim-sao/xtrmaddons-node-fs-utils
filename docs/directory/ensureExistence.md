@@ -1,4 +1,4 @@
-# FsUtils.directory.ensureExistence(_dir [, root]_) [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](ensureExistence.fr-FR.md)
+# FsUtils.directory.ensureExistence(_dir [, root]_) [![fr-FR](https://github.com/shim-sao/assets/blob/master/images/france-flag-icon-16.png)](ensureExistence.fr-FR.md)
 
 Method to ensure directory existence and create it and all directories needed on the path.
 

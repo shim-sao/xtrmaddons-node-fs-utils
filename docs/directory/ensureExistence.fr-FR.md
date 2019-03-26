@@ -1,4 +1,4 @@
-# FsUtils.directory.ensureExistence(_dir [, root]_) [![en-GB](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/united-kingdom-flag-icon-16.png)](ensureExistence.fr-FR.md)
+# FsUtils.directory.ensureExistence(_dir [, root]_) [![en-GB](https://github.com/shim-sao/assets/blob/master/images/united-kingdom-flag-icon-16.png)](ensureExistence.fr-FR.md)
 
 Méthode pour s'assurer de l'existence d'un répertoire et le créer, ainsi que tous les répertoires nécessaires sur le chemin.
 

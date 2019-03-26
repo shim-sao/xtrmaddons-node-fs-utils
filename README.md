@@ -4,6 +4,16 @@ This directory is intended to compile in a class of utilities a series of functi
 
 ## Install
 
+Execute the following command for the installation of the modules:
+
+### Method 1
+
+```batch
+npm install --save https://github.com/shim-sao/xtrmaddons-node-fs-utils
+```
+
+### Method 2
+
 ```js
 // Adding the file dependency package.json
 {
@@ -17,7 +27,7 @@ This directory is intended to compile in a class of utilities a series of functi
 }
 ```
 
-After adding this dependency in the list of dependencies, execute the following command for the installation of the module: :
+After adding the needed dependencies in the list, execute the following command for the installation of the modules:
 
 ```batch
 npm run install
@@ -31,7 +41,9 @@ Documentation of the functions contain in the API.
 
 ---
 
-## Build
+## Development
+
+### Build
 
 Command to perform Babel compilation for distribution :
 
@@ -39,7 +51,7 @@ Command to perform Babel compilation for distribution :
 npm run build
 ```
 
-## Tests Mocha
+### Tests Mocha
 
 Command to perform unit tests with Mocha :
 
@@ -47,7 +59,7 @@ Command to perform unit tests with Mocha :
 npm run test
 ```
 
-## Eslint fix
+### Eslint fix
 
 Command to perform fix with Eslint :
 

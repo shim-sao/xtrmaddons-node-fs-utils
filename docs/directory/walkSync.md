@@ -1,4 +1,4 @@
-# FsUtils.directory.walkSync(_dir [, filters, flatten, filelist]_) [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](walkSync.fr-FR.md)
+# FsUtils.directory.walkSync(_dir [, filters, flatten, filelist]_) [![fr-FR](https://github.com/shim-sao/assets/blob/master/images/france-flag-icon-16.png)](walkSync.fr-FR.md)
 
 Method to walk through a directory to search for files on it.
 

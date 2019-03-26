@@ -1,4 +1,4 @@
-# FsUtils.file.create(_filename [, content, callback]_) [![fr-FR](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/france-flag-icon-16.png)](create.fr-FR.md)
+# FsUtils.file.create(_filename [, content, callback]_) [![fr-FR](https://github.com/shim-sao/assets/blob/master/images/france-flag-icon-16.png)](create.fr-FR.md)
 
 Method to create file and its full path if not exists.
 
