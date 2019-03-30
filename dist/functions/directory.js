@@ -7,14 +7,14 @@ var path = require("path"); // export module definition.
 
 exports = module.exports = {
   /**
-   * Method to ensure directory existence and create
-   * it and all directories needed on the path.
-   * 
-   * @param {string} dir  A path to a directory.
-   * @param {string} root A root path to join to the directory if it is a relative folder (optional).
-   * 
-   * @returns void
-   */
+    * Method to ensure directory existence and create
+    * it and all directories needed on the path.
+    * 
+    * @param {string} dir  A path to a directory.
+    * @param {string} root A root path to join to the directory if it is a relative folder (optional).
+    * 
+    * @returns void
+    */
   ensureExistence: function ensureExistence(dir) {
     var root = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
 
@@ -47,17 +47,17 @@ exports = module.exports = {
   },
 
   /**
-   * Method to walk through a directory to search for files on it.
-   * 
-   * @param {string} dir        A path to a directory.
-   * @param {any}   filters     string|number: search for files ending with.
-   *                            array: search for files ending with all strings in the array.
-   *                            function: perform a function with parameters like this callback(filelist, dirFile, flatten) 
-   * @param {boolean} flatten   Set it to true to flatten output list.
-   * @param {array} filelist    The output list.
-   * 
-   * @returns {array} A nested array of directory and files or an array of files if flatten.
-   */
+    * Method to walk through a directory to search for files on it.
+    * 
+    * @param {string} dir        A path to a directory.
+    * @param {any}   filters     string|number: search for files ending with.
+    *                            array: search for files ending with all strings in the array.
+    *                            function: perform a function with parameters like this callback(filelist, dirFile, flatten) 
+    * @param {boolean} flatten   Set it to true to flatten output list.
+    * @param {array} filelist    The output list.
+    * 
+    * @returns {array} A nested array of directory and files or an array of files if flatten.
+    */
   walkSync: function walkSync(dir) {
     var filters = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
     var flatten = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
