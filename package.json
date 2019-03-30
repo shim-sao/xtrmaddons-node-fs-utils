@@ -1,6 +1,6 @@
 {
   "name": "xtrmaddons-node-fs-utils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Fs utils",
   "main": "dist/index.js",
   "scripts": {
