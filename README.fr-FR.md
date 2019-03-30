@@ -1,8 +1,18 @@
-# XtrmAddons Node Fs Utils [![en-GB](https://github.com/shim-sao/XtrmAddons-Batch/blob/master/MySQLBatchBackup/images/united-kingdom-flag-icon-16.png)](README.md)
+# XtrmAddons Node Fs Utils [![en-GB](https://github.com/shim-sao/assets/blob/master/images/united-kingdom-flag-icon-16.png)](README.md)
 
 Ce répertoire est destiné à compiler dans une class d'utilitaires une série de fonctions pour effectuer des actions sur les répertoires et les fichiers qu'ils contiennent.
 
-## Install
+## Installation
+
+### Méthode 1
+
+Exécutez la commande suivante pour l'installation des modules:
+
+```batch
+npm install --save https://github.com/shim-sao/xtrmaddons-node-fs-utils
+```
+
+### Méthode 2
 
 ```js
 // Ajout de la dépendance au fichier package.json
@@ -17,13 +27,31 @@ Ce répertoire est destiné à compiler dans une class d'utilitaires une série 
 }
 ```
 
-Après avoir ajouté cette dépendance dans la liste des dépendances, écécuter la commande suivanate pour l'installation du module :
+Après avoir ajouté les dépendances nécessaires à la liste, exécutez la commande suivante pour l'installation des modules:
 
 ```batch
 npm run install
 ```
 
-## Tests Mocha
+---
+
+## [API Documentation](docs/README.fr-FR.md)
+
+Documentation des fonctions contenues dans l'API.
+
+---
+
+## Développement
+
+### Build
+
+Commande pour réaliser la compilation avec Babel pour la distribution :
+
+```batch
+npm run build
+```
+
+### Tests Mocha
 
 Commande pour réaliser les tests unitaires avec Mocha :
 
@@ -31,6 +59,10 @@ Commande pour réaliser les tests unitaires avec Mocha :
 npm run test
 ```
 
-## [API Documentation](docs/README.fr-FR.md)
+### Eslint fix
 
-Documentation des fonctions contenues dans l'API.
+Commande pour réaliser les fix avec Eslint :
+
+```batch
+npm run eslint
+```
