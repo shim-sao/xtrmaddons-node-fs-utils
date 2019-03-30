@@ -16,7 +16,7 @@ exports = module.exports = {
     * @returns void
     */
   create: function create(filename, content, callback) {
-    if (!filename || typeof filename !== "string" || typeof filename !== "number") {
+    if (!filename || typeof filename !== "string" && typeof filename !== "number") {
       throw new TypeError("Parameter 'filename' is empty or not valid.");
     }
 
