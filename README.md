@@ -56,7 +56,7 @@ npm run build
 Command to perform unit tests with Mocha :
 
 ```batch
-npm run test
+npm run tests
 ```
 
 ### Eslint fix

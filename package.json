@@ -1,10 +1,11 @@
 {
   "name": "xtrmaddons-node-fs-utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fs utils",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "nodemon --watch ./src --exec mocha",
+    "tests": "nodemon --watch ./src --exec mocha",
+    "tests:file-create": "nodemon tests/file-create.js",
     "build": "babel src --out-dir dist",
     "lint": "eslint src/index.js --fix"
   },
@@ -40,6 +41,7 @@
   },
   "_moduleAliases": {
     "@src": "src",
-    "@dist": "dist"
+    "@dist": "dist",
+    "@tests": "tests"
   }
 }

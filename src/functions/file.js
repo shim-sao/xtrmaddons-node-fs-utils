@@ -21,7 +21,7 @@ exports = module.exports = {
 			throw new TypeError("Parameter 'filename' is empty or not valid.");
 		}
     
-		if (callback && callback === "function") {
+		if (callback && typeof callback !== "function") {
 			throw new TypeError("Parameter 'callback' is not a valid function.");
 		}
 
@@ -35,8 +35,7 @@ exports = module.exports = {
 				// y => void is never used.
 				// eslint-disable-next-line no-unused-vars
 					.then(y => {
-						if (typeof callback === "function")
-							callback();
+						if (callback) callback();
 					})
 			);
 	},
