@@ -56,7 +56,7 @@ npm run build
 Commande pour réaliser les tests unitaires avec Mocha :
 
 ```batch
-npm run test
+npm run tests
 ```
 
 ### Eslint fix
