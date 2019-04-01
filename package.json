@@ -4,7 +4,7 @@
   "description": "Fs utils",
   "main": "dist/index.js",
   "scripts": {
-    "tests": "nodemon --watch ./src --exec mocha",
+    "test": "nodemon --watch ./dist --exec mocha",
     "tests:file-create": "nodemon tests/file-create.js",
     "build": "babel src --out-dir dist",
     "lint": "eslint src/index.js --fix"

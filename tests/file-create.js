@@ -4,13 +4,12 @@
 
 // Import external modules.
 require("module-alias/register");
-const assert = require("assert");
 
 // Import internal modules.
 const FsUtils = require("@dist");
 
 /* Test */
-const myPath = process.cwd();
+// const myPath = process.cwd();
 
 process.env.NODE_ENV = "development";
 
